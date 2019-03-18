@@ -10,10 +10,10 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --base-href=\"/angular-7-first-app/\" --deploy-url=\"\" && gh-pages -d dist/my-first-app",
-    "deploy_prod": "ng build --prod --base-href=\"/angular-7-first-app/\" --deploy-url=\"\" && gh-pages -d dist/my-first-app",
-    "deploy_prod_aot": "ng build --prod --aot --base-href=\"/angular-7-first-app/\" --deploy-url=\"\" && gh-pages -d dist/my-first-app",
-    "bundle-report": "ng build --prod --stats-json && webpack-bundle-analyzer dist/my-first-app/stats.json"
+    "deploy": "ng build --base-href=\"/angular-7-pwa/\" --deploy-url=\"\" && gh-pages -d dist/my-first-app",
+    "deploy_prod": "ng build --prod --base-href=\"/angular-7-pwa/\" --deploy-url=\"\" && gh-pages -d dist/angular-pwa",
+    "deploy_prod_aot": "ng build --prod --aot --base-href=\"/angular-7-pwa/\" --deploy-url=\"\" && gh-pages -d dist/angular-pwa",
+    "bundle-report": "ng build --prod --stats-json && webpack-bundle-analyzer dist/angular-pwa/stats.json"
   },
   "private": true,
   "dependencies": {
