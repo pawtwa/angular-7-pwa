@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1552951232851,
+  "timestamp": 1552951495167,
   "index": "/angular-7-pwa/index.html",
   "assetGroups": [
     {
@@ -16,7 +16,8 @@
         "/angular-7-pwa/styles.3ff695c00d717f2d2a11.css"
       ],
       "patterns": [
-        "https:\\/\\/fonts\\.googleapis\\.com\\/css\\?family=Oswald:300,700"
+        "https:\\/\\/fonts\\.googleapis\\.com\\/css\\?family=Oswald:300,700",
+        "https:\\/\\/fonts\\.gstatic\\.com\\/.*"
       ]
     },
     {
