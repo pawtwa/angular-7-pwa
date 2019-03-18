@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { catchError } from 'rxjs/operators';
 
 import { Post } from './post.model';
+import { throwError } from 'rxjs';
 
 @Component({
   selector: 'app-root',
