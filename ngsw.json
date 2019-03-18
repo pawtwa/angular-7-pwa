@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1552948283891,
+  "timestamp": 1552951232851,
   "index": "/angular-7-pwa/index.html",
   "assetGroups": [
     {
@@ -10,12 +10,14 @@
       "urls": [
         "/angular-7-pwa/favicon.ico",
         "/angular-7-pwa/index.html",
-        "/angular-7-pwa/main.4223ee5cf1e3c52e6a8f.js",
+        "/angular-7-pwa/main.21f108eb8868fb2c06fb.js",
         "/angular-7-pwa/polyfills.70797e53fbee1004e841.js",
         "/angular-7-pwa/runtime.26209474bfa8dc87a77c.js",
         "/angular-7-pwa/styles.3ff695c00d717f2d2a11.css"
       ],
-      "patterns": []
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/css\\?family=Oswald:300,700"
+      ]
     },
     {
       "name": "assets",
@@ -34,7 +36,19 @@
       "patterns": []
     }
   ],
-  "dataGroups": [],
+  "dataGroups": [
+    {
+      "name": "posts",
+      "patterns": [
+        "https:\\/\\/jsonplaceholder\\.typicode\\.com\\/posts"
+      ],
+      "strategy": "freshness",
+      "maxSize": 5,
+      "maxAge": 21600000,
+      "timeoutMs": 10000,
+      "version": 1
+    }
+  ],
   "hashTable": {
     "/angular-7-pwa/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/angular-7-pwa/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
@@ -45,8 +59,8 @@
     "/angular-7-pwa/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/angular-7-pwa/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/angular-7-pwa/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/angular-7-pwa/index.html": "a24807a9e0f96276501b4cf36c35393fbd616b31",
-    "/angular-7-pwa/main.4223ee5cf1e3c52e6a8f.js": "f0f66f622ddfc916e4695723ff1bf7196189d52f",
+    "/angular-7-pwa/index.html": "94a801a7b59a754143f02b24d0bc653caeff7a18",
+    "/angular-7-pwa/main.21f108eb8868fb2c06fb.js": "5109e8d1c52fc11765130e9b7fe7d84ab5bb2a41",
     "/angular-7-pwa/polyfills.70797e53fbee1004e841.js": "9523895b2983416284537971454a8e67b59b13ec",
     "/angular-7-pwa/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/angular-7-pwa/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
